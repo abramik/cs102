@@ -152,4 +152,5 @@ if (length(data$ID[data$Season == 'Winter' & data$City == 'Sankt Moritz']) == 0)
 — *34*
 
 ```{r}
-abs(length(unique(data$Sport[data$Y
+abs(length(unique(data$Sport[data$Year == 1995])) - length(unique(data$Sport[data$Year == 2016])))
+```
